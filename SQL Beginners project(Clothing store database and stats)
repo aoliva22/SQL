@@ -1,0 +1,11 @@
+--create a clothing store database.
+CREATE Table clothes (id integer primary key, name text, season text, stock_quantity integer, price integer);  
+
+INSERT INTO clothes VALUES (1, "T-shirt", "spring/summer",10,  4);
+INSERT INTO clothes VALUES (2, "Sweater", "Fall/Winter", 15, 7);
+INSERT INTO clothes VALUES (3, "Jacket", "Fall/Winter", 12, 10);
+INSERT INTO clothes VALUES (4, "Shorts", "Spring/Summer", 10, 6); 
+INSERT INTO clothes VALUES (5, "Pants", "All_year_round", 20, 9);
+
+--display the database ordered by price.
+SELECT * FROM clothes ORDER BY price; 
