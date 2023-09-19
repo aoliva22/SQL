@@ -43,7 +43,7 @@ GROUP BY category;
 
 SELECT price,category,item_name
 FROM superstore
-WHERE category="Kitchen Supplies"
+WHERE category="Kitchen Supplies";
 
 -Question 4. Retrive the total stock quantity for each store item that has a price equal to or below $50.00.
 
